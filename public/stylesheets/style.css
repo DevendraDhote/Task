@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+}
+
+.main h1{
+  font: 600 2.5vmax 'gilroy'; 
+  color: rgb(65, 168, 228);
+}
+
+.main form{
+  min-height: 20vh;
+  width: 25vw;
+  padding: 1vmax;
+  background-color: rgb(226, 226, 226);
+  border-radius: 1.5vmax;
+}
+
+form input{
+  height: 6vh;
+  width: 23vw;
+  border: none;
+  background-color: white;
+  border-radius: 0.2vmax;
+  padding: 0.5vmax;
+  margin-bottom: 1vmax;
+}
+
+.btn{
+  padding: 1vmax 9.8vmax;
+  cursor: pointer;
+  background-color: rgb(65, 168, 228);
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+}
